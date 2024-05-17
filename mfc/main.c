@@ -2,10 +2,10 @@
 
 int main()
 {
-    int num1,num2,num3;
+    int num1,num2,num3,num4;
     int res;
-    printf("enter 3 numbers");
-    scanf("%d %d %d",&num1,&num2,&num3);
-    res=num1+num2+num3;
+    printf("enter 4 numbers");
+    scanf("%d %d %d %d",&num1,&num2,&num3,&num4);
+    res=num1+num2+num3+num4;
     printf("result %d",res);
 }
